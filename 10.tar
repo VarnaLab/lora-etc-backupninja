@@ -1,0 +1,12 @@
+when = tuesday at 01
+backupname = lora-gw-01.varnalab.org
+backupdir = /var/backups/tar/lora-gw-01.varnalab.org
+compress = gzip
+includes =  /etc /home /usr/local /opt /root /srv
+excludes =  /tmp /proc /sys /dev /media /misc /net /selinux
+
+# tar binary - have to be GNU tar
+#TAR=/bin/tar
+#DATE           /bin/date
+#DATEFORMAT     "%Y.%m.%d-%H%M"
+
