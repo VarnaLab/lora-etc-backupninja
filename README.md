@@ -26,6 +26,12 @@ cd /etc/backup.d
 git pull
 ```
 
+## Test it
+
+```
+backupninja -n -d -t
+```
+
 # TODO
 
 Install script.
