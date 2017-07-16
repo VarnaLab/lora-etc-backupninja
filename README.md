@@ -2,8 +2,14 @@
 
 ## Installation
 
+Raspberry-PI packages
 ```bash
+apt-get install -y backupninja
+apt-get install -y rsync
+```
 
+BackupNinja Macros
+```bash
 git clone https://github.com/VarnaLab/lora-etc-backupninja.git
 rm lora-etc-backupninja/README.md
 rm lora-etc-backupninja/LICENSE
